@@ -1,0 +1,3 @@
+<macro name="bond" icon="PLAY">
+   <bond timeout="5000"/>
+</macro>
