@@ -1,0 +1,8 @@
+<macro name="on" icon="PLAY">
+   <assert-service description="Ensure 932c32bd-0000-47a2-835a-a8d455b859dd service" uuid="932c32bd-0000-47a2-835a-a8d455b859dd">
+      <assert-characteristic uuid="932c32bd-0003-47a2-835a-a8d455b859dd">
+         <property name="READ" requirement="MANDATORY"/>
+      </assert-characteristic>
+   </assert-service>
+   <read characteristic-uuid="932c32bd-0003-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" parser="brightness:0:int:8:little-endian:7:/255*100"/>
+</macro>
